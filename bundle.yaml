@@ -1,9 +1,10 @@
 apiVersion: "1"
 version: "2"
 id: "glenn-casc-workshop-ops-controller"
-description: "CloudBees CI configuration bundle for the glenn-casc-workshop ops-controller Controller"
+description: "CloudBees CI configuration bundle for the cbci-casc-workshop ops-controller Controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/credentials.yaml"
+  - "jcasc/jenkins.yaml"
 plugins:
   - "plugins.yaml"
 catalog:
